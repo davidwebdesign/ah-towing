@@ -1,0 +1,6 @@
+git add -A
+git commit -m "reset: minimal working Next.js towing site"
+git branch -M main 2>/dev/null || true
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/davidwebdesign/ah-towing.git
+git push -u origin main
